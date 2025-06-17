@@ -1,9 +1,21 @@
+import Memu from "@/components/Menu";
+import Footer from "@/components/footer";
+import User from "@/components/User";
 
-export default function Home() {
+const Home = () => {
+
+  const userName="Weslley";
+
   return (
     <div>
-      <h2>Bem-Vindo ao seu FlexSytem E-Commerce</h2>
+      <Memu /><br />
+      <User name={userName}>
+        <p>Este é um conteúdo extra fornecido como Children.</p>
+      </User><br />
+      <h2>Bem-vindo FlexSystem</h2><br />
+      <Footer />
     </div>
-    
-  );
+  )
 }
+
+export default Home;
