@@ -6,8 +6,8 @@ const Home = () => {
 
   const userName="Weslley";
 
-  return (
-    <div>
+	return (
+		<div>
       <Memu /><br />
       <User name={userName}>
         <p>Este é um conteúdo extra fornecido como Children.</p>
