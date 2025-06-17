@@ -67,3 +67,6 @@ Adicionar um repositório remoto ao repositório local
 ...
 git remote add origin http://github.com/weslleybarbosapba/e-commerce.git
 
+## Para Atualizar o Git
+...
+git update-git-for-windows --yes
